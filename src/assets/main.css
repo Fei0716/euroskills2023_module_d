@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 18px;
+  line-height: 1.5;
+}
+/*create custom css property*/
+@property --main-gradient {
+    /*any value of color, if angle uses <angle>*/
+    syntax: "<color>";
+    initial-value: rgb(33,37,41);
+    inherits: false;
+}
+
+@property --main-gradient-threshold {
+    /*any value of color, if angle uses <angle>*/
+    syntax: "<percentage>";
+    initial-value: 50%;
+    inherits: false;
+}
+body{
+  font-family:
+          Inter,
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Roboto,
+          Oxygen,
+          Ubuntu,
+          Cantarell,
+          'Fira Sans',
+          'Droid Sans',
+          'Helvetica Neue',
+          sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+    /*animate linear gradient for background image*/
+    background-image: linear-gradient(to bottom, transparent var(--main-gradient-threshold), var(--main-gradient));
+    animation: animateBackgroundGradient 10s ease infinite;
+
+}
+
+@keyframes animateBackgroundGradient {
+    0%,100%{
+        --main-gradient: rgb(83, 83, 83);
+        --main-gradient-threshold: 50%;
+
+    }
+    50%{
+        --main-gradient: rgb(30, 30, 30);
+        --main-gradient-threshold: 70%;
+    }
+}
+
+/*global styles*/
+.main-content-enter-from, .main-content-leave-to{
+    transform: translateY(50%);
+    opacity: 0;
+}
+.main-content-enter-active, .main-content-leave-active{
+    transition: all 1s ease;
+}
+.main-content-enter-to, .main-content-leave-from{
+    transform: translateY(0);
+    opacity: 1;
+}
+:is(#chat-wrapper, #image-wrapper){
+    background-color: #000000ad !important;
+    backdrop-filter: blur(7px);
+}
