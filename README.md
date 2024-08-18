@@ -1,3 +1,7 @@
+![chatterblast](https://github.com/user-attachments/assets/6cae7ef7-b3a7-431d-85f0-ff16715a607b)
+![chatterblast](https://github.com/user-attachments/assets/c9e6ef1c-b9ef-4a4f-ac77-0f1a0939d093)
+![mindreader](https://github.com/user-attachments/assets/3e7cce94-a3cf-4bd2-beeb-a0b643133bbb)
+
 # Test Project Outline – Module D — Interactive Frontend using an API
 
 This document outlines the description of Module D. It is circulated to the competitors and experts 3 months prior to
