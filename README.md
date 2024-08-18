@@ -1,4 +1,4 @@
-![mindreader](https://github.com/user-attachments/assets/bf870f41-32c5-443c-8b41-b942bbf161a2)
+![chatterblast](https://github.com/user-attachments/assets/319e7ca1-882b-4273-ac33-bc8853efd22c)
 ![dreamweaver](https://github.com/user-attachments/assets/92218b2d-a06c-420f-8c83-440e56073e20)
 ![mindreader](https://github.com/user-attachments/assets/3e7cce94-a3cf-4bd2-beeb-a0b643133bbb)
 
