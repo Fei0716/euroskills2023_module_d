@@ -1,5 +1,5 @@
-![chatterblast](https://github.com/user-attachments/assets/6cae7ef7-b3a7-431d-85f0-ff16715a607b)
-![chatterblast](https://github.com/user-attachments/assets/c9e6ef1c-b9ef-4a4f-ac77-0f1a0939d093)
+![mindreader](https://github.com/user-attachments/assets/bf870f41-32c5-443c-8b41-b942bbf161a2)
+![dreamweaver](https://github.com/user-attachments/assets/92218b2d-a06c-420f-8c83-440e56073e20)
 ![mindreader](https://github.com/user-attachments/assets/3e7cce94-a3cf-4bd2-beeb-a0b643133bbb)
 
 # Test Project Outline – Module D — Interactive Frontend using an API
